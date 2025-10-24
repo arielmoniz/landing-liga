@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liga Empreendedora da UFBA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo e Nome -->
+                <div class="logo">
+                    <div class="logo-circle">
+                        <span>LE</span>
+                    </div>
+                    <div class="logo-text">
+                        <h1>Liga Empreendedora</h1>
+                        <p>UFBA</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="#sobre" class="nav-link">Sobre</a>
+                    <a href="#projetos" class="nav-link">Projetos</a>
+                    <a href="#faq" class="nav-link">FAQ</a>
+                    <a href="#contato" class="nav-link">Contato</a>
+                    <a href="#chamada" class="nav-link">Chamada</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav class="nav-mobile" id="navMobile">
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#projetos" class="nav-link">Projetos</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#contato" class="nav-link">Contato</a>
+                <a href="#chamada" class="nav-link">Chamada</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-bg"></div>
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content fade-in-left">
+                        <h2>Transformando ideias em <span class="text-primary">inovação</span></h2>
+                        <p>Somos a Liga Empreendedora da UFBA, um movimento estudantil que conecta estudantes empreendedores, desenvolve projetos inovadores e impulsiona startups através de mentoria, hackathons e parcerias estratégicas.</p>
+                        <div class="hero-buttons">
+                            <a href="#chamada" class="btn btn-primary">
+                                Participe da Liga
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                            <a href="#sobre" class="btn btn-outline">Saiba Mais</a>
+                        </div>
+                    </div>
+                    <div class="hero-image fade-in-right">
+                        <img src="https://images.unsplash.com/photo-1662469567531-9ae8356d3788?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwY29sbGFib3JhdGlvbiUyMHN0YXJ0dXB8ZW58MXx8fHwxNzYxMDIxMjM1fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Equipe Liga Empreendedora">
+                        <div class="hero-decoration decoration-1"></div>
+                        <div class="hero-decoration decoration-2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="sobre" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Sobre a Liga Empreendedora</h2>
+                    <p>Fundada por estudantes visionários da UFBA, a Liga Empreendedora nasceu do desejo de criar um ambiente onde ideias inovadoras pudessem florescer. Hoje, somos um dos principais movimentos estudantis de empreendedorismo da Bahia, conectando estudantes, empresas e a comunidade através da inovação.</p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                        </div>
+                        <h3>Nossa Missão</h3>
+                        <p>Fomentar o empreendedorismo e a inovação na UFBA, capacitando estudantes a transformarem ideias em realidade.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3>Comunidade</h3>
+                        <p>Conectamos estudantes, mentores e empresas para criar um ecossistema colaborativo de inovação.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2v20M2 12h20"/>
+                                <circle cx="12" cy="12" r="10"/>
+                            </svg>
+                        </div>
+                        <h3>Inovação</h3>
+                        <p>Desenvolvemos projetos que impactam a sociedade através de tecnologia e empreendedorismo.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <h3>Aceleração</h3>
+                        <p>Impulsionamos startups e ideias através de mentorias, eventos e conexões estratégicas.</p>
+                    </div>
+                </div>
+
+                <div class="about-history">
+                    <div class="history-image">
+                        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbm5vdmF0aW9uJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NjEwNDM4MjN8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Inovação e Tecnologia">
+                    </div>
+                    <div class="history-content">
+                        <h3>Nossa História</h3>
+                        <p>A Liga Empreendedora da UFBA começou como um pequeno grupo de estudantes apaixonados por inovação. Ao longo dos anos, crescemos e nos tornamos uma referência em empreendedorismo estudantil.</p>
+                        <p>Nossos membros já desenvolveram dezenas de projetos inovadores, conquistaram pódios em competições nacionais e internacionais, e muitos deles fundaram suas próprias startups de sucesso.</p>
+                        <p>Hoje, continuamos nossa missão de democratizar o acesso ao empreendedorismo e à inovação, oferecendo capacitações, mentorias e um ambiente colaborativo para todos os estudantes da UFBA.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impact Numbers Section -->
+        <section class="impact-numbers">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Nosso Impacto em Números</h2>
+                    <p>Dados que mostram o alcance e a transformação que a Liga Empreendedora tem promovido na comunidade acadêmica e no ecossistema de inovação.</p>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card" data-value="2500">
+                        <div class="stat-number">
+                            <span class="stat-prefix">+</span>
+                            <span class="stat-value">0</span>
+                            <span class="stat-suffix">mil</span>
+                        </div>
+                        <p>Estudantes impactados</p>
+                    </div>
+
+                    <div class="stat-card" data-value="500">
+                        <div class="stat-number">
+                            <span class="stat-prefix">+</span>
+                            <span class="stat-value">0</span>
+                        </div>
+                        <p>Alunos mentorados</p>
+                    </div>
+
+                    <div class="stat-card" data-value="20">
+                        <div class="stat-number">
+                            <span class="stat-prefix">+</span>
+                            <span class="stat-value">0</span>
+                        </div>
+                        <p>Empresas parceiras</p>
+                    </div>
+
+                    <div class="stat-card" data-value="20">
+                        <div class="stat-number">
+                            <span class="stat-prefix">+</span>
+                            <span class="stat-value">0</span>
+                        </div>
+                        <p>Pódios em hackathons</p>
+                    </div>
+
+                    <div class="stat-card" data-value="20">
+                        <div class="stat-number">
+                            <span class="stat-prefix">+</span>
+                            <span class="stat-value">0</span>
+                        </div>
+                        <p>Projetos desenvolvidos</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projetos" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Projetos Realizados</h2>
+                    <p>Confira alguns dos principais projetos e iniciativas que a Liga Empreendedora desenvolveu ao longo de sua trajetória.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="card-header">
+                            <span class="badge">Evento</span>
+                            <span class="date">2024</span>
+                        </div>
+                        <h3>Hackathon UFBA 2024</h3>
+                        <p>Maior hackathon da universidade com mais de 200 participantes desenvolvendo soluções para problemas sociais.</p>
+                        <div class="card-footer">
+                            <div class="achievement">🏆 1º Lugar Nacional</div>
+                            <div class="participants">👥 200 participantes</div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="card-header">
+                            <span class="badge">Mentoria</span>
+                            <span class="date">2023-2024</span>
+                        </div>
+                        <h3>Programa de Mentoria Tech</h3>
+                        <p>Programa de mentoria que conecta estudantes com profissionais do mercado de tecnologia e inovação.</p>
+                        <div class="card-footer">
+                            <div class="achievement">🏆 Melhor Programa</div>
+                            <div class="participants">👥 150 participantes</div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="card-header">
+                            <span class="badge">Aceleração</span>
+                            <span class="date">2023</span>
+                        </div>
+                        <h3>StartUFBA Accelerator</h3>
+                        <p>Aceleradora de startups que impulsionou mais de 15 projetos de estudantes da UFBA.</p>
+                        <div class="card-footer">
+                            <div class="achievement">🏆 3 Startups Fundadas</div>
+                            <div class="participants">👥 45 participantes</div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="card-header">
+                            <span class="badge">Evento</span>
+                            <span class="date">2024</span>
+                        </div>
+                        <h3>Innovation Week</h3>
+                        <p>Semana de palestras, workshops e networking com empresas parceiras e empreendedores de sucesso.</p>
+                        <div class="card-footer">
+                            <div class="achievement">🏆 10+ Empresas Parceiras</div>
+                            <div class="participants">👥 300 participantes</div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="card-header">
+                            <span class="badge">Competição</span>
+                            <span class="date">2023</span>
+                        </div>
+                        <h3>Tech Challenge 2023</h3>
+                        <p>Competição de desenvolvimento de soluções tecnológicas para desafios corporativos reais.</p>
+                        <div class="card-footer">
+                            <div class="achievement">🏆 Pódio Nacional</div>
+                            <div class="participants">👥 80 participantes</div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="card-header">
+                            <span class="badge">Competição</span>
+                            <span class="date">2024</span>
+                        </div>
+                        <h3>Pitch Competition</h3>
+                        <p>Competição de pitches onde estudantes apresentam suas ideias para investidores e mentores.</p>
+                        <div class="card-footer">
+                            <div class="achievement">🏆 R$ 50k em Prêmios</div>
+                            <div class="participants">👥 60 participantes</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Relatos de Ex-Membros</h2>
+                    <p>Veja o que nossos ex-membros têm a dizer sobre suas experiências na Liga e como ela impactou suas carreiras e trajetórias profissionais.</p>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="quote-icon">"</div>
+                        <p class="testimonial-text">"A Liga Empreendedora foi fundamental na minha jornada. Aprendi desde os conceitos básicos de empreendedorismo até como validar uma ideia e apresentá-la para investidores. Hoje tenho minha própria startup!"</p>
+                        <div class="testimonial-author">
+                            <p class="author-name">Ana Carolina Silva</p>
+                            <p class="author-role">Ex-membro | Fundadora da TechSolutions</p>
+                            <p class="author-period">2021-2023</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="quote-icon">"</div>
+                        <p class="testimonial-text">"Participar da Liga foi uma das melhores decisões que tomei na universidade. As conexões que fiz, as habilidades que desenvolvi e os projetos que participei abriram portas que eu nem imaginava."</p>
+                        <div class="testimonial-author">
+                            <p class="author-name">Rafael Oliveira</p>
+                            <p class="author-role">Ex-membro | Desenvolvedor Senior na Google</p>
+                            <p class="author-period">2020-2022</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="quote-icon">"</div>
+                        <p class="testimonial-text">"Na Liga, tive a oportunidade de trabalhar em projetos reais, com equipes multidisciplinares e mentores incríveis. Foi uma verdadeira imersão no mundo da inovação e do empreendedorismo."</p>
+                        <div class="testimonial-author">
+                            <p class="author-name">Mariana Santos</p>
+                            <p class="author-role">Ex-membro | Product Manager na Nubank</p>
+                            <p class="author-period">2022-2024</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="quote-icon">"</div>
+                        <p class="testimonial-text">"O networking que construí na Liga foi essencial. Conheci meu sócio aqui, participamos de hackathons juntos e hoje nossa startup já impacta milhares de estudantes em todo o Brasil."</p>
+                        <div class="testimonial-author">
+                            <p class="author-name">Lucas Ferreira</p>
+                            <p class="author-role">Ex-membro | Co-fundador da EduTech</p>
+                            <p class="author-period">2021-2023</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="quote-icon">"</div>
+                        <p class="testimonial-text">"A Liga me ensinou muito além de teoria. Aprendi a trabalhar em equipe, a pivotar projetos, a lidar com fracassos e a celebrar vitórias. Foi uma experiência transformadora!"</p>
+                        <div class="testimonial-author">
+                            <p class="author-name">Juliana Costa</p>
+                            <p class="author-role">Ex-membro | UX Designer na iFood</p>
+                            <p class="author-period">2022-2024</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="quote-icon">"</div>
+                        <p class="testimonial-text">"Os desafios que enfrentei na Liga me prepararam para o mercado de trabalho de forma única. Hoje trabalho assessorando empresas em seus processos de inovação, aplicando muito do que aprendi aqui."</p>
+                        <div class="testimonial-author">
+                            <p class="author-name">Pedro Henrique</p>
+                            <p class="author-role">Ex-membro | Consultor de Inovação</p>
+                            <p class="author-period">2020-2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partners Section -->
+        <section class="partners">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Empresas Parceiras</h2>
+                    <p>Trabalhamos com empresas líderes de mercado que acreditam no potencial do empreendedorismo estudantil e apoiam nossa missão.</p>
+                </div>
+
+                <div class="partners-grid">
+                    <div class="partner-card">
+                        <div class="partner-logo">SE</div>
+                        <p>SEBRAE</p>
+                    </div>
+                    <div class="partner-card">
+                        <div class="partner-logo">GO</div>
+                        <p>Google</p>
+                    </div>
+                    <div class="partner-card">
+                        <div class="partner-logo">MI</div>
+                        <p>Microsoft</p>
+                    </div>
+                    <div class="partner-card">
+                        <div class="partner-logo">AW</div>
+                        <p>AWS</p>
+                    </div>
+                    <div class="partner-card">
+                        <div class="partner-logo">NU</div>
+                        <p>Nubank</p>
+                    </div>
+                    <div class="partner-card">
+                        <div class="partner-logo">IF</div>
+                        <p>iFood</p>
+                    </div>
+                    <div class="partner-card">
+                        <div class="partner-logo">ST</div>
+                        <p>Stone</p>
+                    </div>
+                    <div class="partner-card">
+                        <div class="partner-logo">BB</div>
+                        <p>Banco do Brasil</p>
+                    </div>
+                    <div class="partner-card">
+                        <div class="partner-logo">PD</div>
+                        <p>Porto Digital</p>
+                    </div>
+                    <div class="partner-card">
+                        <div class="partner-logo">FI</div>
+                        <p>FIEB</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Startups Section -->
+        <section class="startups">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Portfólio de Startups</h2>
+                    <p>Conheça as startups fundadas por membros da Liga Empreendedora que estão transformando mercados e criando impacto positivo na sociedade.</p>
+                </div>
+
+                <div class="startups-grid">
+                    <div class="startup-card">
+                        <div class="startup-logo">TE</div>
+                        <h3>TechSolutions</h3>
+                        <p class="startup-sector">SaaS | B2B</p>
+                        <p class="startup-bio">Plataforma SaaS que conecta empresas a desenvolvedores freelancers qualificados, facilitando a gestão de projetos de tecnologia.</p>
+                        <div class="startup-socials">
+                            <a href="#" class="social-link">🌐</a>
+                            <a href="#" class="social-link">💼</a>
+                            <a href="#" class="social-link">📸</a>
+                        </div>
+                    </div>
+
+                    <div class="startup-card">
+                        <div class="startup-logo">ED</div>
+                        <h3>EduTech</h3>
+                        <p class="startup-sector">EdTech | B2C</p>
+                        <p class="startup-bio">Aplicativo educacional que utiliza gamificação para ensinar programação e habilidades digitais para crianças e adolescentes.</p>
+                        <div class="startup-socials">
+                            <a href="#" class="social-link">🌐</a>
+                            <a href="#" class="social-link">📸</a>
+                            <a href="#" class="social-link">🐦</a>
+                        </div>
+                    </div>
+
+                    <div class="startup-card">
+                        <div class="startup-logo">GR</div>
+                        <h3>GreenEnergy</h3>
+                        <p class="startup-sector">CleanTech | B2B</p>
+                        <p class="startup-bio">Startup de energia limpa que desenvolve soluções de monitoramento inteligente para otimização do consumo energético.</p>
+                        <div class="startup-socials">
+                            <a href="#" class="social-link">🌐</a>
+                            <a href="#" class="social-link">💼</a>
+                        </div>
+                    </div>
+
+                    <div class="startup-card">
+                        <div class="startup-logo">HE</div>
+                        <h3>HealthConnect</h3>
+                        <p class="startup-sector">HealthTech | B2C</p>
+                        <p class="startup-bio">Plataforma de telemedicina que conecta pacientes a médicos especialistas, oferecendo consultas online e acompanhamento digital.</p>
+                        <div class="startup-socials">
+                            <a href="#" class="social-link">🌐</a>
+                            <a href="#" class="social-link">📸</a>
+                            <a href="#" class="social-link">💼</a>
+                        </div>
+                    </div>
+
+                    <div class="startup-card">
+                        <div class="startup-logo">FO</div>
+                        <h3>FoodDelivery Pro</h3>
+                        <p class="startup-sector">FoodTech | B2B</p>
+                        <p class="startup-bio">Sistema de gestão completo para restaurantes, integrando pedidos, estoque, delivery e análise de dados em uma única plataforma.</p>
+                        <div class="startup-socials">
+                            <a href="#" class="social-link">🌐</a>
+                            <a href="#" class="social-link">💼</a>
+                            <a href="#" class="social-link">🐦</a>
+                        </div>
+                    </div>
+
+                    <div class="startup-card">
+                        <div class="startup-logo">FI</div>
+                        <h3>FinanceHub</h3>
+                        <p class="startup-sector">FinTech | B2C</p>
+                        <p class="startup-bio">Aplicativo de educação financeira para jovens, ajudando a desenvolver hábitos saudáveis de economia e investimento.</p>
+                        <div class="startup-socials">
+                            <a href="#" class="social-link">🌐</a>
+                            <a href="#" class="social-link">📸</a>
+                            <a href="#" class="social-link">💼</a>
+                        </div>
+                    </div>
+
+                    <div class="startup-card">
+                        <div class="startup-logo">AG</div>
+                        <h3>AgroSmart</h3>
+                        <p class="startup-sector">AgTech | B2B</p>
+                        <p class="startup-bio">Solução de IoT para agricultura de precisão, monitorando solo, clima e irrigação para otimizar a produção agrícola.</p>
+                        <div class="startup-socials">
+                            <a href="#" class="social-link">🌐</a>
+                            <a href="#" class="social-link">💼</a>
+                        </div>
+                    </div>
+
+                    <div class="startup-card">
+                        <div class="startup-logo">TR</div>
+                        <h3>TravelBuddy</h3>
+                        <p class="startup-sector">TravelTech | B2C</p>
+                        <p class="startup-bio">App de planejamento de viagens com inteligência artificial que cria roteiros personalizados baseados nas preferências do usuário.</p>
+                        <div class="startup-socials">
+                            <a href="#" class="social-link">🌐</a>
+                            <a href="#" class="social-link">📸</a>
+                            <a href="#" class="social-link">🐦</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Perguntas Frequentes</h2>
+                    <p>Tire suas dúvidas sobre a Liga Empreendedora, processo seletivo, atividades e muito mais.</p>
+                </div>
+
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>O que é a Liga Empreendedora da UFBA?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>A Liga Empreendedora é um movimento estudantil da UFBA focado em fomentar o empreendedorismo e a inovação. Desenvolvemos projetos, realizamos eventos, oferecemos mentorias e conectamos estudantes ao ecossistema de inovação.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Quem pode participar da Liga?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Qualquer estudante da UFBA pode participar! Não é necessário ter conhecimento prévio em empreendedorismo. Buscamos pessoas motivadas, dispostas a aprender e que queiram fazer a diferença.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Como funciona o processo seletivo?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>O processo seletivo acontece geralmente duas vezes ao ano. Consiste em inscrição online, dinâmica em grupo e entrevista individual. Avaliamos fit cultural, motivação e potencial de contribuição para a Liga.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Preciso pagar alguma taxa para participar?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Não! A participação na Liga Empreendedora é totalmente gratuita. Oferecemos todas as atividades, mentorias e eventos sem nenhum custo para os membros.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Quanto tempo preciso dedicar à Liga?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Recomendamos uma dedicação média de 8-12 horas semanais. Isso inclui reuniões, desenvolvimento de projetos e participação em eventos. O tempo pode variar dependendo do seu envolvimento e projetos específicos.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Que benefícios terei ao fazer parte da Liga?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Você terá acesso a mentorias com profissionais do mercado, participação em eventos e hackathons, networking com empresas parceiras, desenvolvimento de habilidades práticas em empreendedorismo e inovação, além de certificados de participação.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Posso participar se não for de cursos de tecnologia?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Com certeza! A Liga é multidisciplinar e valoriza a diversidade de áreas. Temos membros de diversos cursos como Administração, Design, Engenharias, Ciências Sociais, entre outros.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Como posso me tornar parceiro da Liga?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Se sua empresa está interessada em apoiar o empreendedorismo estudantil, entre em contato conosco através do formulário na seção de contato. Estamos sempre abertos a novas parcerias!</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>A Liga oferece suporte para desenvolvimento de startups?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Sim! Oferecemos mentoria, workshops, conexões com investidores e empresas, além de programas de aceleração. Vários membros já fundaram suas próprias startups com o apoio da Liga.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Como fico sabendo quando abre novo processo seletivo?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Divulgamos as inscrições através de nossas redes sociais e no site. Você também pode deixar seu e-mail na seção "Chamada" para ser notificado quando o próximo processo seletivo abrir.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contato" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Entre em Contato</h2>
+                    <p>Tem alguma dúvida ou sugestão? Entre em contato conosco! Estamos sempre prontos para conversar.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Nome Completo</label>
+                                <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" placeholder="seu.email@exemplo.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Assunto</label>
+                                <input type="text" id="subject" name="subject" placeholder="Sobre o que você quer falar?" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Mensagem</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block">Enviar Mensagem</button>
+                        </form>
+                    </div>
+
+                    <div class="contact-info">
+                        <div class="info-box">
+                            <h3>Informações de Contato</h3>
+                            
+                            <div class="info-item">
+                                <div class="info-icon">✉️</div>
+                                <div>
+                                    <p class="info-label">E-mail</p>
+                                    <a href="mailto:contato@ligaempreendedoraufba.com">contato@ligaempreendedoraufba.com</a>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon">📍</div>
+                                <div>
+                                    <p class="info-label">Localização</p>
+                                    <p>Campus Ondina, UFBA<br>Salvador - BA</p>
+                                </div>
+                            </div>
+
+                            <div class="info-socials">
+                                <p class="info-label">Redes Sociais</p>
+                                <div class="social-links">
+                                    <a href="#" class="social-btn">📸</a>
+                                    <a href="#" class="social-btn">💼</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-box-hours">
+                            <h4>Horário de Atendimento</h4>
+                            <p>Segunda a Sexta: 14h às 18h<br>Resposta por e-mail em até 48h</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section id="chamada" class="cta">
+            <div class="cta-bg"></div>
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="text-white">Junte-se à Liga Empreendedora</h2>
+                    <p class="text-white">Faça parte do maior movimento de empreendedorismo estudantil da UFBA. Desenvolva suas habilidades, conecte-se com pessoas incríveis e transforme suas ideias em realidade.</p>
+                </div>
+
+                <!-- Toggle between open/closed - currently showing closed state -->
+                <div class="cta-box">
+                    <div class="cta-icon">📅</div>
+                    <h3>Processo Seletivo em Breve</h3>
+                    <p>No momento não estamos com processo seletivo aberto. Deixe seu e-mail para ser notificado quando abrirmos novas vagas!</p>
+
+                    <form id="notifyForm" class="notify-form">
+                        <div class="form-group">
+                            <label for="notify-email">Seu melhor e-mail</label>
+                            <input type="email" id="notify-email" name="notify-email" placeholder="seu.email@exemplo.com" required>
+                        </div>
+                        <button type="submit" class="btn btn-white btn-block">Quero ser Notificado</button>
+                    </form>
+
+                    <p class="cta-note">Enquanto isso, siga-nos nas redes sociais para ficar por dentro das novidades!</p>
+                </div>
+
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <h4>Mentoria</h4>
+                        <p>Com profissionais do mercado</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h4>Networking</h4>
+                        <p>Conexões valiosas</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h4>Projetos Reais</h4>
+                        <p>Experiência prática</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h4>Certificação</h4>
+                        <p>Reconhecimento oficial</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-circle">
+                            <span>LE</span>
+                        </div>
+                        <div class="logo-text">
+                            <h3>Liga Empreendedora</h3>
+                            <p>UFBA</p>
+                        </div>
+                    </div>
+                    <p>Transformando estudantes em empreendedores e ideias em inovação.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                        <li><a href="#chamada">Processo Seletivo</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Conecte-se Conosco</h4>
+                    <p class="footer-email">✉️ contato@ligaempreendedoraufba.com</p>
+                    <div class="footer-socials">
+                        <a href="#" class="social-link">📸</a>
+                        <a href="#" class="social-link">💼</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© Liga Empreendedora da UFBA, 2025. Todos os direitos reservados.</p>
+                <p>Site criado por Fulano</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
